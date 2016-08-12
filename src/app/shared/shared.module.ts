@@ -25,12 +25,8 @@ import {
     FIREBASE_PROVIDERS,
     defaultFirebase }       from 'angularfire2';
 
- var config = {
-    apiKey: "AIzaSyCJHSlFe7VQ_-x1n00fxrn1-WKbPmoJcbw",
-    authDomain: "coderajayio.firebaseapp.com",
-    databaseURL: "https://coderajayio.firebaseio.com",
-    storageBucket: "coderajayio.appspot.com",
-  };
+import { firebaseConfig } from '../'
+
 
 
 @NgModule({
@@ -59,7 +55,7 @@ import {
     ],
     providers: [
         FIREBASE_PROVIDERS,
-        defaultFirebase(config)
+        defaultFirebase(firebaseConfig)
     ]
 })
 export class SharedModule { }
