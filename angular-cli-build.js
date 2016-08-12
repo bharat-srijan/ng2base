@@ -21,7 +21,9 @@ module.exports = function(defaults) {
       'angularfire2/**/*.js',
       'angularfire2/**/*.map',
       'firebase/*.js',
-      'firebase/*.map' 
+      'firebase/*.map',
+      'core-js/**/*.js',
+      'core-js/**/*.map' 
     ]
   });
 };
