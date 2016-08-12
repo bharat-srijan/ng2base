@@ -21,11 +21,10 @@ import { PortalModule }             from '@angular2-material/core/portal/portal-
 import { OverlayModule }            from '@angular2-material/core/overlay/overlay-directives';
 import { RtlModule }                from '@angular2-material/core/rtl/dir';
 
+import { firebaseConfig }           from '../config.service';
 import {
     FIREBASE_PROVIDERS,
-    defaultFirebase }       from 'angularfire2';
-
-import { firebaseConfig } from '../'
+    defaultFirebase }               from 'angularfire2';
 
 
 
